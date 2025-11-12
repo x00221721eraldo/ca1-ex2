@@ -1,0 +1,46 @@
+git init
+git config --global user.name "eraldo allushi"
+git config --global user.email "x00221721@mytudublin.ie"
+git config --global core.autocrlf false
+git branch -m master main
+git commit -m "initial commit"
+git add debug.log
+git add .
+git commit -m "added .gitignore to exclude todo.txt"
+git commit
+git add .gitignore
+git add .todo.txt
+git add todo.txt
+git add debug.log
+git add debug.log.txt
+git status
+git commit -a
+git add debug.log.txt
+git status
+git commit .
+git add .
+git branch feature-login
+git add app.py
+git commit -m "add feature-function"
+git switch main
+git switch feature-function
+git switch feature-login
+git commit -m "add feature-login"
+git add app.py
+git commit -m "add feature-login"
+git switch main
+git add app.py
+git commit -m "main"
+git switch feature-login
+git switch main
+git add app.py
+git commit -m "main"
+git merge feature-login
+git merge feature-login
+git remote add origin https://github.com/x00221721eraldo/ca1ex2-repo.git
+git pull
+git push
+git pull
+?commandline -match "git"
+commandline -match "git"
+get-history ?commandline -match git %commandLine > ca1ex2.txt
